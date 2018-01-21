@@ -18,5 +18,6 @@ let package = Package(
         .testTarget(
             name: "TinkerEvalStaticLibTests",
             dependencies: ["TinkerEvalStaticLib"]),
-    ]
+    ],
+    swiftLanguageVersions: [4]
 )
